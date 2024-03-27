@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      database: demo
+      uri: mongodb://localhost:27017/?directConnection=true
+
+org:
+  jobrunr:
+    database:
+      database-name: demo
+      type: mongodb
