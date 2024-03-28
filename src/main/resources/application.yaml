@@ -9,3 +9,10 @@ org:
     database:
       database-name: demo
       type: mongodb
+      table-prefix: jobrunr-
+    background-job-server:
+      thread-type: virtualthreads
+      enabled: true
+
+server:
+  port: 8089
